@@ -1,5 +1,6 @@
 Link to Video : https://drive.google.com/file/d/1j58E96txSI1MKXb5StZ0UIkQyXgwiJYq/view?usp=share_link
-Link to hosted webpage : yizhel.github.io/pui-final/
+Link to hosted webpage : https://yizhel.github.io/pui-final/
+Link to writeup : https://github.com/yizhel/pui-final/blob/main/PUI%20Final%20Writeup.pdf
 
 This is my final project for PUI Spring 2023.
 
