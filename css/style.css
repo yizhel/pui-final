@@ -1,7 +1,37 @@
+body {
+  background-color: rgb(245, 239, 239);
+}
+
 .navbarheader {
   position: sticky;
 }
 
+.nav-link {
+  color: #9d1f26;
+}
+.nav-link:hover {
+  color: white;
+  background: #9d1f26;
+}
+
 ul {
   padding-top: 10px;
+}
+
+.whitespace {
+  height: 10%;
+}
+
+.verticalshot {
+  width: 90%;
+  padding-left: 10%;
+}
+
+.calendar {
+  margin-top: 10px;
+}
+
+.instatext {
+  text-decoration: underline;
+  color: black;
 }
