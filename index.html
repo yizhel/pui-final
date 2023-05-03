@@ -25,30 +25,91 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
-  </head>
-  <body>
-    <div class="container">
-      <header
-        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
-      >
-        <a
-          href="/"
-          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-          ><span class="fs-4">CMU Fencing Club</span>
-        </a>
 
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="about.html" class="nav-link active">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="schedule.html" class="nav-link active">Schedule</a>
-          </li>
-          <li class="nav-item">
-            <a href="roster.html" class="nav-link active">Roster</a>
-          </li>
-        </ul>
-      </header>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+      });
+    </script>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div class="container">
+      <div id="header"></div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="container">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        
+      </div>
+      <div class="carousel-inner">
+        <a href="events.html" class="nav-link" id="about">
+        <div class="carousel-item active">
+          <img
+          src="./assets/Grail Picture 1 2023.png"
+          class="d-block w-100"
+          alt="Denison v Rochester in the team sabre gold medal match"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h4>Holy Grail 2023</h4>
+            <p>Explore our annual three weapon team event.</p>
+          </div>
+        </div>
+        </a>
+        <div class="carousel-item">
+          <img
+            
+            src="./assets/Grail Poster 1 2023.png"
+            class="d-block w-100"
+            alt="CMU Sabre fencers in action "
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h4>Tartan Scrimmage 2022</h4>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+    
     </div>
   </body>
 </html>

@@ -25,30 +25,20 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+      });
+    </script>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
     <div class="container">
-      <header
-        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
-      >
-        <a
-          href="/"
-          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-          ><span class="fs-4">CMU Fencing Club</span>
-        </a>
-
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="about.html" class="nav-link active">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="schedule.html" class="nav-link active">Schedule</a>
-          </li>
-          <li class="nav-item">
-            <a href="roster.html" class="nav-link active">Roster</a>
-          </li>
-        </ul>
-      </header>
+      <div id="header"></div>
     </div>
     <div class="container"><h1>About Us</h1></div>
   </body>
